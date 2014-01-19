@@ -433,29 +433,13 @@ header .logo img{
 }
 
 #mail .email-text, #mail-vertical .email-text{
-	margin-left:100px;
+	margin: 24px 0;
+	text-align: center;
 }
 
 #mail h3 strong, #mail-vertical h3 strong{
 	font-weight: 600;
 }
-
-#mail .email-input, #mail-vertical .email-input{
-	margin-top:4px;
-}
-
-#mail .email-input input, #mail-vertical .email-input input{
-	display: inline-block;
-}
-
-#mail .email-input input[type="submit"], #mail-vertical .email-input input[type="submit"]{
-	padding:7px 12px 7px 12px;
-	background:#1C9DF8;
-	border:0;
-	color:#fff;
-	font-weight: 500;
-}
-
 
 /* #Footer
 ================================================== */

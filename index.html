@@ -11,6 +11,9 @@
 	<title>國軍互助回報App</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
+		
+	<!-- Google Webmasters -->
+	<meta name="google-site-verification" content="PLCRfHvc6ecTQ4F-NIBbjfefnJMvDhyuK0BncW5q570" />
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -39,7 +42,61 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>    
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+	<!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-47276996-1', 'armyapp.tw');
+	  ga('send', 'pageview');
+	</script>
+	<!-- End Google Analytics -->
+	<script>
+	// Include the UserVoice JavaScript SDK (only needed once on a page)
+	UserVoice=window.UserVoice||[];(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='http://widget.uservoice.com/sqeZRH6qzXX9uJc9qjIhw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})();
+
+	//
+	// UserVoice Javascript SDK developer documentation:
+	// https://www.uservoice.com/o/javascript-sdk
+	//
+
+	// Set colors
+	UserVoice.push(['set', {
+	  accent_color: '#448dd6',
+	  trigger_color: 'white',
+	  trigger_background_color: 'rgba(46, 49, 51, 0.6)'
+	}]);
+
+	// Identify the user and pass traits
+	// To enable, replace sample data with actual user traits and uncomment the line
+	UserVoice.push(['identify', {
+	  //email:      'john.doe@example.com', // User’s email address
+	  //name:       'John Doe', // User’s real name
+	  //created_at: 1364406966, // Unix timestamp for the date the user signed up
+	  //id:         123, // Optional: Unique id of the user (if set, this should not change)
+	  //type:       'Owner', // Optional: segment your users by type
+	  //account: {
+	  //  id:           123, // Optional: associate multiple users with a single account
+	  //  name:         'Acme, Co.', // Account name
+	  //  created_at:   1364406966, // Unix timestamp for the date the account was created
+	  //  monthly_rate: 9.99, // Decimal; monthly rate of the account
+	  //  ltv:          1495.00, // Decimal; lifetime value of the account
+	  //  plan:         'Enhanced' // Plan name for the account
+	  //}
+	}]);
+
+	// Add default trigger to the bottom-right corner of the window:
+	UserVoice.push(['addTrigger', { mode: 'satisfaction', trigger_position: 'top-right' }]);
+
+	// Or, use your own custom trigger:
+	//UserVoice.push(['addTrigger', '#id', { mode: 'satisfaction' }]);
+
+	// Autoprompt for Satisfaction and SmartVote (only displayed under certain conditions)
+	UserVoice.push(['autoprompt', {}]);
+	</script>
 </head>
 <body>
 
@@ -58,7 +115,7 @@
 					<h3>返營、餐敘、定時回報的好幫手。</h3>
 					<a id="appstore-link" href="#!">
 						<div class="appstore-button border-5">
-							 <i class="fa fa-mobile-phone fa-4x"></i><span>立即下載<br/><strong>Android版</strong></span></a>
+							 <i class="fa fa-mobile-phone fa-4x"></i><span>Available on the <br/><strong>Play Store</strong></span></a>
 						</div>
 					</a>
 				</div><!-- End Intro -->	
@@ -83,7 +140,7 @@
 						</div>
 						<div class="info seven columns padding-10">
 							<h3>快速回報</h3>
-							<p>只要點選您要回報的事由，你的組員就會收到簡訊；簡訊內容包含您的手機定位地點、回報時間及回報事由，如此以來您的弟兄或幹部就不用會您操心了！</p>
+							<p>只要點選您要回報的事由，你的組員就會收到簡訊；簡訊內容包含您的手機定位地點、回報時間及回報事由，如此以來您的弟兄或幹部就不用為您操心了！</p>
 						</div>
 						<div class="arrow border-5"></div>
 					</div>
@@ -136,35 +193,71 @@
 		<div class="container">
 			<div class="team-member four columns"><!-- Team Member -->
 				<div class="picture four columns">
-					<img src="images/trantor.jpg">
+					<a href="http://trantor.tw" target="_blank">
+						<img src="images/trantor.png">
+					</a>
 				</div>
 				<div class="description four columns">
-					<h3>劉君羿</h3>
-					<p>中華民國陸軍擔任少尉輔導長</p>
+					<h3><a href="http://trantor.tw" target="_blank">劉君羿</a></h3>
+					<p>102-1梯役預官，現為陸軍裝甲五八四旅戰一營戰一連輔導長。專長為網頁開發。他是本計畫的發起人。</p>
 				</div>
 			</div>
 			<div class="team-member four columns"><!-- Team Member -->
 				<div class="picture four columns">
-					<img src="images/kalvin.jpg">
+					<a href="https://www.facebook.com/kalvin.handilist" target="_blank">
+						<img src="images/kalvin.png">
+					</a>
 				</div>
 				<div class="description four columns">
-					<h3>何康瓏</h3>
-					<p>born to love!</p>
+					<h3><a href="https://www.facebook.com/kalvin.handilist" target="_blank">何康瓏</a></h3>
+					<p>來自印尼的工程師。專長是網頁及App開發。他是本App的開發者。</p>
 				</div>
 			</div>
 			<div class="team-member four columns"><!-- Team Member -->
 				<div class="picture four columns">
-					<img src="images/dayo.png">
+					<a href="https://www.facebook.com/dayo.choul" target="_blank">
+						<img src="images/dayo.jpg">
+					</a>
 				</div>
 				<div class="description four columns">
-					<h3>Dayo</h3>
-					<p>我免役，謝謝。</p>
+					<h3><a href="https://www.facebook.com/dayo.choul" target="_blank">Dayo</a></h3>
+					<p>我免役，謝謝指教。</p>
+				</div>
+			</div>
+			<div class="team-member four columns"><!-- Team Member -->
+				<div class="picture four columns">
+					<a href="https://www.facebook.com/brokenripple" target="_blank">
+						<img src="images/brokenripple.jpg">
+					</a>
+				</div>
+				<div class="description four columns">
+					<h3><a href="https://www.facebook.com/brokenripple" target="_blank">吳秉軒</a></h3>
+					<p><a href="http://www.chirpy.tw" target="_blank">Chirpy</a>的創辦人。他是本計畫的Logo設計者。</p>
 				</div>
 			</div>
 		</div>
 	</section><!-- End Testimonial -->
+
+	<section id="mail"><!-- Mail -->
+		<div class="container">
+			<div class="email-text sixteen columns">
+				<h3>歡迎<a href="mailto:tickets@armyapp.uservoice.com" data-uv-trigger data-uv-position="top">與我們聯絡</a>，我們將盡快地回覆您！</h3>
+			</div>
+		</div>
+	</section><!-- End Mail -->
 	<footer id="footer"><!-- Footer -->
 		<div class="container">
+			<div class="copyright eleven columns offset-by-one"><!-- Copyright -->
+				<h3>ArmyApp.</h3>
+				<p>ArmyApp &copy; 2014. All rights reserved.
+			</div>
+			<div class="social four columns"><!-- Social Buttons -->
+				<ul>
+					<!--<li class="border-5"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>-->
+					<li class="border-5"><a href="mailto:tickets@armyapp.uservoice.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					<li class="border-5"><a href="https://github.com/trantorLiu/ArmyApp" target="_blank"><i class="fa fa-github"></i></a></li>
+				</ul>
+			</div>
 		</div>
 	</footer><!-- End Footer -->
 
