@@ -11,15 +11,21 @@ section#info {
   background: url(../images/apache.jpg) no-repeat scroll center top / cover rgba(0, 0, 0, 0);
 }
 section#team a:link,
-section#mail a:link {
+section#mail a:link,
+footer#footer a:link {
   color: #2d6da5;
   text-decoration: none;
 }
 section#team a:visited,
-section#mail a:visited {
+section#mail a:visited,
+footer#footer a:visited {
   color: #2d6da5;
 }
 section#team a:hover,
-section#mail a:hover {
+section#mail a:hover,
+footer#footer a:hover {
   text-decoration: underline;
+}
+div.license-container div.license {
+  margin: 1em 0 1em 0;
 }
