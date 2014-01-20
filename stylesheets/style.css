@@ -41,3 +41,8 @@ footer#footer a:hover {
 div.license-container div.license {
   margin: 1em 0 1em 0;
 }
+@media screen and (max-width: 480px) {
+  div.appstore-button span {
+    margin-left: 10px;
+  }
+}
