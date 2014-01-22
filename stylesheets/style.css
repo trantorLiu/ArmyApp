@@ -3,6 +3,34 @@ body,
 html {
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
 }
+* h1,
+body h1,
+html h1,
+* h2,
+body h2,
+html h2,
+* h3,
+body h3,
+html h3,
+* h4,
+body h4,
+html h4,
+* h5,
+body h5,
+html h5,
+* h6,
+body h6,
+html h6 {
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
+}
+* p,
+body p,
+html p,
+* a,
+body a,
+html a {
+  font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
+}
 div.appstore-button {
   width: 200px;
   background-color: #2d6da5;
