@@ -30,6 +30,7 @@ $(document).ready(function(){
 		$('div.android-image a.bx-pager-link').click(function(e){
 			e.preventDefault();
 			e.stopPropagation();
+			return false;
 		});
 		$('div.android-image a.bx-pager-link').hover(function(e){
 			e.preventDefault();
@@ -38,6 +39,7 @@ $(document).ready(function(){
 			console.log(':)');
 			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
 			$(this).css('background','none repeat scroll 0 0 #000000');
+			return false;
 		});
 		$('div.info-box').hover(function(e){
 			e.preventDefault();
