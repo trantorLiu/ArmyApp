@@ -7,7 +7,7 @@ I think that's a shit plugin. My grandma is better than him.
 */
 "use strict";
 $(document).ready(function(){
-		$( 'div.android-image a.bx-pager-link' ).unbind();
+		$( 'div.android-image a.bx-pager-link' ).unbind('click');
 		$('.testimonialsslider').bxSlider({
 			 auto: true,
 			 autoControls: false
