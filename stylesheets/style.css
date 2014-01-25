@@ -75,6 +75,8 @@ ul.bxslider.appslider img {
 div.fb_edge_widget_with_comment {
   left: 6%;
   vertical-align: middle;
+  position: relative;
+  top: 4px;
 }
 #mail .email-text h3,
 #mail-vertical .email-text h3 {
