@@ -23,8 +23,8 @@ $(document).ready(function(){
 			var translate3d_N = 'translate3d('+((parseInt($(node).attr('data-slide-index'))+1)*parseInt(transform_N)).toString()+'px, 0px, 0px)';
 			$('ul.bxslider.appslider').css('transition','0.5s');
 			$('ul.bxslider.appslider').css('transform', translate3d_N);
-			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
-			$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
+			//$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
+			//$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
 			return false;
 		}
 
@@ -35,7 +35,10 @@ $(document).ready(function(){
 			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
 			$(this).css('background','none repeat scroll 0 0 #000000');
 		});
-		$('div.info-box').hover(function(){
+		$('div.info-box').hover(function(e){
+			e.preventDefault();
+			e.stopPropagation();
+			slideToInfo(this);
 			slideToInfo(this);
 			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
 			$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
