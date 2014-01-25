@@ -29,4 +29,4 @@ $(document).ready(function(){
 			sliderTestimonial.goToSlide(2);
 			return false;
 		});
-	});
+});
