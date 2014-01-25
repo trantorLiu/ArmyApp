@@ -17,16 +17,16 @@ $(document).ready(function(){
 
 
 		$('.first-box').hover(function(){
-			sliderTestimonial.goToSlide(0);
+			//sliderTestimonial.goToSlide(0);
 			return false;
 		});
 		$('.second-box').hover(function(){
-			sliderTestimonial.goToSlide(1);
+			//sliderTestimonial.goToSlide(1);
 			return false;
 
 		});
 		$('.third-box').hover(function(){
-			sliderTestimonial.goToSlide(2);
+			//sliderTestimonial.goToSlide(2);
 			return false;
 		});
 });
