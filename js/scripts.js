@@ -30,9 +30,10 @@ $(document).ready(function(){
 		$('div.android-image a.bx-pager-link').click(function(e){
 			e.preventDefault();
 			e.stopPropagation();
+			console.log('wtf');
 			return false;
 		});
-		$('a.bx-pager-link').hover(function(e){
+		$('div.android-image a.bx-pager-link').hover(function(e){
 			e.preventDefault();
 			e.stopPropagation();
 			slideToInfo(this);
