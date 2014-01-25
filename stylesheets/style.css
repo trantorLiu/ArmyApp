@@ -89,7 +89,7 @@ div.fb_edge_widget_with_comment {
     left: 0;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 979px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
   #mail .email-text,
   #mail-vertical .email-text {
     margin: 0;
