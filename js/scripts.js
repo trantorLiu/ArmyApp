@@ -17,16 +17,16 @@ $(document).ready(function(){
 
 
 		$('.first-box').hover(function(){
-			//sliderTestimonial.goToSlide(0);
+            $('ul.bxslider.appslider').css('transform','translate3d(-270px, 0px, 0px)');
 			return false;
 		});
 		$('.second-box').hover(function(){
-			//sliderTestimonial.goToSlide(1);
+            $('ul.bxslider.appslider').css('transform','translate3d(-540px, 0px, 0px)');
 			return false;
 
 		});
 		$('.third-box').hover(function(){
-			//sliderTestimonial.goToSlide(2);
+            $('ul.bxslider.appslider').css('transform','translate3d(0px, 0px, 0px)');
 			return false;
 		});
 });
