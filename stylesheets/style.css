@@ -99,3 +99,13 @@ div.fb_edge_widget_with_comment {
     margin: 0;
   }
 }
+@media screen and (min-width: 480px) and (max-width: 960px) {
+  #mail .email-text,
+  #mail-vertical .email-text {
+    text-align: left;
+  }
+  #mail .email-text div.fb_edge_widget_with_comment,
+  #mail-vertical .email-text div.fb_edge_widget_with_comment {
+    left: 0;
+  }
+}
