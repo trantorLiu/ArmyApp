@@ -34,7 +34,6 @@ $(document).ready(function(){
 			$(this).css('background','none repeat scroll 0 0 #000000');
 		});
 		$('div.info-box').hover(function(){
-			var phone_button;
 			slideToInfo(this);
 			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
 			$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
