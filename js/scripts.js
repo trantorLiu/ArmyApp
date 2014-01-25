@@ -32,7 +32,7 @@ $(document).ready(function(){
 			e.stopPropagation();
 			return false;
 		});
-		$('div.android-image a.bx-pager-link').hover(function(e){
+		$('a.bx-pager-link').hover(function(e){
 			e.preventDefault();
 			e.stopPropagation();
 			slideToInfo(this);
