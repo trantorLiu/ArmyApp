@@ -28,10 +28,17 @@ $(document).ready(function(){
 			return false;
 		}
 
+		$('div.android-image a.bx-pager-link').click(function(e){
+			e.preventDefault();
+			e.stopPropagation();
+			slideToInfo(this);
+		});
+
 		$('div.android-image a.bx-pager-link').hover(function(e){
 			e.preventDefault();
 			e.stopPropagation();
 			slideToInfo(this);
+			console.log(':)');
 			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
 			$(this).css('background','none repeat scroll 0 0 #000000');
 		});
