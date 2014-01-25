@@ -13,7 +13,7 @@ $(document).ready(function(){
 			 autoControls: false
 		});
 		
-		var sliderTestimonial = $('.appslider').bxSlider({
+		$('.appslider').bxSlider({
 			 auto: false,
 			 autoControls: false
 		});
