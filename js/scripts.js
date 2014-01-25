@@ -7,12 +7,11 @@ I think that's a shit plugin. My grandma is better than him.
 */
 "use strict";
 $(document).ready(function(){
-		$( 'div.android-image a.bx-pager-link' ).unbind('click');
+		"use strict";
 		$('.testimonialsslider').bxSlider({
 			 auto: true,
 			 autoControls: false
 		});
-		
 		
 		var sliderTestimonial = $('.appslider').bxSlider({
 			 auto: false,
@@ -28,7 +27,10 @@ $(document).ready(function(){
 			//$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
 			return false;
 		}
-
+		$('div.android-image a.bx-pager-link').click(function(e){
+			e.preventDefault();
+			e.stopPropagation();
+		});
 		$('div.android-image a.bx-pager-link').hover(function(e){
 			e.preventDefault();
 			e.stopPropagation();
