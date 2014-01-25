@@ -2,9 +2,8 @@
 DANNY POSTMA
 www.dannypostma.com
 */
-
+"use strict";
 $(document).ready(function(){
-		"use strict";
 		$('.testimonialsslider').bxSlider({
 			 auto: true,
 			 autoControls: false
