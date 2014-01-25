@@ -28,7 +28,7 @@ $(document).ready(function(){
 			return false;
 		}
 
-		$('div.android-image a.bx-pager-link').click(function(e){
+		$('div.android-image a.bx-pager-link').hover(function(e){
 			e.preventDefault();
 			e.stopPropagation();
 			slideToInfo(this);
