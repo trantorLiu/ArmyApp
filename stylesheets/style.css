@@ -179,23 +179,9 @@ div#info-navigator div.phone-button-container a:visited.not-chosen {
   #mail-vertical .email-text div.fb_edge_widget_with_comment {
     left: 0;
   }
-  #mail div.container {
-    text-align: center;
-  }
 }
 @media screen and (min-width: 960px) {
   div.fb_edge_widget_with_comment {
     vertical-align: middle;
-  }
-  #mail .email-text,
-  #mail-vertical .email-text {
-    text-align: left;
-  }
-  #mail .email-text div.fb_edge_widget_with_comment,
-  #mail-vertical .email-text div.fb_edge_widget_with_comment {
-    left: 0;
-  }
-  #mail div.container {
-    text-align: center;
   }
 }
