@@ -73,7 +73,6 @@ ul.bxslider.appslider img {
   width: 270px;
 }
 div.fb_edge_widget_with_comment {
-  left: 6%;
   vertical-align: middle;
   position: relative;
   top: 4px;
@@ -81,7 +80,7 @@ div.fb_edge_widget_with_comment {
 }
 #mail .email-text h3,
 #mail-vertical .email-text h3 {
-  display: inline-block;
+  display: block;
 }
 #info div.android-image div.slider-app {
   overflow-x: hidden;
@@ -158,7 +157,7 @@ div#info-navigator div.phone-button-container a:visited.not-chosen {
   #mail .email-text,
   #mail-vertical .email-text {
     margin: 0;
-    text-align: left;
+    text-align: center;
   }
   #mail .email-text div.fb_edge_widget_with_comment,
   #mail-vertical .email-text div.fb_edge_widget_with_comment {
@@ -174,7 +173,7 @@ div#info-navigator div.phone-button-container a:visited.not-chosen {
 @media screen and (min-width: 480px) and (max-width: 960px) {
   #mail .email-text,
   #mail-vertical .email-text {
-    text-align: left;
+    text-align: center;
   }
   #mail .email-text div.fb_edge_widget_with_comment,
   #mail-vertical .email-text div.fb_edge_widget_with_comment {
