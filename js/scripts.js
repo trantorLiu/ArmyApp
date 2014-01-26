@@ -12,43 +12,28 @@ $(document).ready(function(){
 			 auto: true,
 			 autoControls: false
 		});
-		
-		$('.appslider').bxSlider({
-			 auto: false,
-			 autoControls: false
-		});
-
 		var slideToInfo = function(node){
-			var transform_N = -270;
-			var translate3d_N = 'translate3d('+((parseInt($(node).attr('data-slide-index'))+1)*parseInt(transform_N)).toString()+'px, 0px, 0px)';
-			$('ul.bxslider.appslider').css('transition','0.5s');
-			$('ul.bxslider.appslider').css('transform', translate3d_N);
-			//$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
-			//$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
+			var shift_base = -270;
+			var total_shift = shift_base*parseInt($(node).attr('data-slide-index'))+'px'
+			console.log(total_shift);
+			$('#info div.android-image div.slider-app .appslider li').css('left' ,total_shift);
 			return false;
 		}
-		$('div.android-image a.bx-pager-link').click(function(e){
-			e.preventDefault();
-			e.stopPropagation();
-			console.log('wtf');
+		var changeNaviColor = function(node){
+			$('a.navi-node').css('background', '#666666');
+			$('a.navi-node').eq(parseInt($(node).attr('data-slide-index'))).css('background', '#000000');
+			return false;
+			//parseInt($(node).attr('data-slide-index'))
+		}
+
+		$('div.info-box, a.navi-node').hover(function(e){
+			slideToInfo(this);
+			changeNaviColor(this);
 			return false;
 		});
-		$('div.android-image a.bx-pager-link').hover(function(e){
-			e.preventDefault();
-			e.stopPropagation();
+		$('a.navi-node').click(function(e){
 			slideToInfo(this);
-			console.log(':)');
-			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
-			$(this).css('background','none repeat scroll 0 0 #000000');
-			return false;
-		});
-		$('div.info-box').hover(function(e){
-			e.preventDefault();
-			e.stopPropagation();
-			slideToInfo(this);
-			slideToInfo(this);
-			$('div.android-image a.bx-pager-link').css('background','none repeat scroll 0 0 #666666');
-			$('div.android-image a.bx-pager-link').eq(parseInt($(this).attr('data-slide-index'))).css('background','none repeat scroll 0 0 #000000');
+			changeNaviColor(this);
 			return false;
 		});
 });

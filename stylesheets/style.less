@@ -60,6 +60,59 @@ div.fb_edge_widget_with_comment{
 		display: inline-block;
 	}
 }
+#info div.android-image div.slider-app{
+	overflow-x: hidden;
+	left:13px;
+	.appslider{
+		margin: 0;
+		display: block;
+	    margin: 0;
+	    position: relative;
+	    width: 9999px;
+		li{
+			display: inline-block;
+	    	float: left;
+	    	position: relative;
+	    	transition-property: left; 
+	    	transition-duration: .5s;
+	    	width: 270px;
+	    	height: 480px;
+	    	text-align: center;
+	    	img{
+	    		width: 270px;
+	    		height: 480px;
+	    		margin: 0 auto;
+	    		vertical-align: middle;
+	    	}
+		}
+	}
+}
+div#info-navigator{
+	bottom: -50px;
+    height: 15px;
+    position: relative;
+    width: 295px;
+    text-align: center;
+    div.phone-button-container{
+    	display: inline-block;
+    	a, a:link, a:visited{
+    		background: none repeat scroll 0 0 #666666;
+    		border-radius: 5px;
+		    display: block;
+		    height: 10px;
+		    margin: 0 5px;
+		    outline: 0 none;
+		    text-indent: -9999px;
+		    width: 10px;
+		    &:hover{
+		    	background: none repeat scroll 0 0 #000000;
+		    }
+		    &:active{
+		    	background: none repeat scroll 0 0 #000000;
+		    }
+    	}
+    }
+}
 @media screen and (max-width: 480px) {
     div.appstore-button span{
     	margin-left: 10px;
