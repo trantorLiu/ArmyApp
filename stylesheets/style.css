@@ -68,7 +68,6 @@ footer#footer a:hover {
 }
 div.license-container div.license {
   margin: 1em 0 1em 0;
-  word-wrap: break-word;
 }
 ul.bxslider.appslider img {
   width: 270px;
@@ -82,6 +81,64 @@ div.fb_edge_widget_with_comment {
 #mail .email-text h3,
 #mail-vertical .email-text h3 {
   display: inline-block;
+}
+#info div.android-image div.slider-app {
+  overflow-x: hidden;
+  left: 13px;
+}
+#info div.android-image div.slider-app .appslider {
+  display: block;
+  margin: 0;
+  position: relative;
+  width: 9999px;
+}
+#info div.android-image div.slider-app .appslider li {
+  display: inline-block;
+  float: left;
+  position: relative;
+  transition-property: left;
+  transition-duration: .5s;
+  width: 270px;
+  height: 480px;
+  text-align: center;
+}
+#info div.android-image div.slider-app .appslider li img {
+  width: 270px;
+  height: 480px;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+div#info-navigator {
+  bottom: -50px;
+  height: 15px;
+  position: relative;
+  width: 295px;
+  text-align: center;
+}
+div#info-navigator div.phone-button-container {
+  display: inline-block;
+}
+div#info-navigator div.phone-button-container a,
+div#info-navigator div.phone-button-container a:link,
+div#info-navigator div.phone-button-container a:visited {
+  background: none repeat scroll 0 0 #666666;
+  border-radius: 5px;
+  display: block;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0 none;
+  text-indent: -9999px;
+  width: 10px;
+}
+div#info-navigator div.phone-button-container a:hover,
+div#info-navigator div.phone-button-container a:link:hover,
+div#info-navigator div.phone-button-container a:visited:hover {
+  background: none repeat scroll 0 0 #000000;
+}
+div#info-navigator div.phone-button-container a:active,
+div#info-navigator div.phone-button-container a:link:active,
+div#info-navigator div.phone-button-container a:visited:active {
+  background: none repeat scroll 0 0 #000000;
 }
 @media screen and (max-width: 480px) {
   div.appstore-button span {
