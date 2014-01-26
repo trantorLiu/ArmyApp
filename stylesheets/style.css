@@ -82,8 +82,6 @@ div.fb_edge_widget_with_comment {
 }
 #mail .email-text h3,
 #mail-vertical .email-text h3 {
-  display: inline-block;
-  position: relative;
   float: left;
 }
 #info div.android-image div.slider-app {
