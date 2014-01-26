@@ -140,6 +140,16 @@ div#info-navigator div.phone-button-container a:link:active,
 div#info-navigator div.phone-button-container a:visited:active {
   background: none repeat scroll 0 0 #000000;
 }
+div#info-navigator div.phone-button-container a.choose,
+div#info-navigator div.phone-button-container a:link.choose,
+div#info-navigator div.phone-button-container a:visited.choose {
+  background: none repeat scroll 0 0 #000000;
+}
+div#info-navigator div.phone-button-container a.not-chosen,
+div#info-navigator div.phone-button-container a:link.not-chosen,
+div#info-navigator div.phone-button-container a:visited.not-chosen {
+  background: none repeat scroll 0 0 #666666;
+}
 @media screen and (max-width: 480px) {
   div.appstore-button span {
     margin-left: 10px;

@@ -20,10 +20,11 @@ $(document).ready(function(){
 			return false;
 		}
 		var changeNaviColor = function(node){
-			$('a.navi-node').css('background', '#666666');
-			$('a.navi-node').eq(parseInt($(node).attr('data-slide-index'))).css('background', '#000000');
+			$('a.navi-node').addClass('not-chosen');
+			$('a.navi-node').eq(parseInt($(node).attr('data-slide-index'))).addClass('choose');
+			//$('a.navi-node').css('background', '#666666');
+			//$('a.navi-node').eq(parseInt($(node).attr('data-slide-index'))).css('background', '#000000');
 			return false;
-			//parseInt($(node).attr('data-slide-index'))
 		}
 
 		$('div.info-box, a.navi-node').hover(function(e){
