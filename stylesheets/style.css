@@ -73,7 +73,7 @@ ul.bxslider.appslider img {
   width: 270px;
 }
 div.fb_edge_widget_with_comment {
-  vertical-align: middle;
+  top: 7px;
   float: right;
 }
 #mail .email-text,
