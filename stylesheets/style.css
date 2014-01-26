@@ -78,6 +78,10 @@ div.fb_edge_widget_with_comment {
   position: relative;
   top: 4px;
 }
+#mail .email-text,
+#mail-vertical .email-text {
+  margin: 12px 0;
+}
 #mail .email-text h3,
 #mail-vertical .email-text h3 {
   display: inline-block;
@@ -151,10 +155,6 @@ div#info-navigator div.phone-button-container a.not-chosen,
 div#info-navigator div.phone-button-container a:link.not-chosen,
 div#info-navigator div.phone-button-container a:visited.not-chosen {
   background: none repeat scroll 0 0 #666666;
-}
-#mail .email-text,
-#mail-vertical .email-text {
-  margin: 12px 0;
 }
 @media screen and (max-width: 480px) {
   div.appstore-button span {
