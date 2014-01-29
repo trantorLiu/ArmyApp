@@ -161,3 +161,6 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+# If .less exists, than .css should be ignored
+stylesheets/style.css
