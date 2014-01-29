@@ -68,6 +68,7 @@ footer#footer a:hover {
 }
 div.license-container div.license {
   margin: 1em 0 1em 0;
+  word-wrap: break-word;
 }
 ul.bxslider.appslider img {
   width: 270px;
