@@ -420,6 +420,22 @@ header .logo img{
 	height: 384px;
 }
 
+/* #Artworks
+================================================== */
+
+#artworks{
+	text-align: center;
+}
+
+#artworks img{
+	background-color: firebrick;
+}
+
+#artworks h3{
+	font-size: 18px;
+	margin-top:20px;
+}
+
 /* #Mail
 ================================================== */
 
