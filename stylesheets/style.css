@@ -31,10 +31,11 @@ body a,
 html a {
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
 }
-a:link, a:visited{
-  color:#2D6DA5;
+a:link,
+a:visited {
+  color: #2D6DA5;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
 div.appstore-button {
