@@ -31,6 +31,12 @@ body a,
 html a {
   font-family: "Open Sans", Arial, Helvetica, "Microsoft JhengHei", "Apple LiGothic Medium", sans-serif;
 }
+a:link, a:visited{
+  color:#2D6DA5;
+}
+a:hover{
+  text-decoration: underline;
+}
 div.appstore-button {
   width: 200px;
   background-color: #2d6da5;
@@ -68,21 +74,17 @@ footer#footer a:hover {
 }
 div.license-container div.license {
   margin: 1em 0 1em 0;
+  word-wrap: break-word;
 }
 ul.bxslider.appslider img {
   width: 270px;
 }
 div.fb_edge_widget_with_comment {
-  top: 7px;
-  display: inline-block;
+  top: 20px;
 }
 #mail .email-text,
 #mail-vertical .email-text {
-  margin: 12px 0;
-}
-#mail .email-text h3,
-#mail-vertical .email-text h3 {
-  display: inline-block;
+  margin: 12px 0 36px 0;
 }
 #info div.android-image div.slider-app {
   overflow-x: hidden;
