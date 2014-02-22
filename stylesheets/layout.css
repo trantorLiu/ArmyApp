@@ -346,17 +346,8 @@ header .logo img {
   text-align: center;
 }
 #artworks img {
-  background-color: firebrick;
-}
-#artworks h1 {
-  background: #C13832;
-  padding: 0.3em;
-  color: #ffffff;
-}
-#artworks h3 {
-  color: #C13832;
-  font-size: 18px;
-  margin-top: 20px;
+  background-color: #f4f4f4;
+  margin-bottom: 16px;
 }
 /* #Mail
 ================================================== */
