@@ -73,11 +73,6 @@ section#mail a:hover,
 footer#footer a:hover {
   text-decoration: underline;
 }
-section#team{
-  div.team-member, div.four, div.columns{
-    width: 170px;
-  }
-}
 div.license-container div.license {
   margin: 1em 0 1em 0;
   word-wrap: break-word;
@@ -173,11 +168,6 @@ section#video{
   div.appstore-button span {
     margin-left: 10px;
   }
-  section#team{
-    div.team-member, div.four, div.columns{
-      width: 300px;
-    }
-  }
   section#video{
     div.video-android{
         top:-5px;
@@ -200,8 +190,27 @@ section#video{
     }
   }
 }
-
+@media screen and (min-width: 767px){
+  section#team{
+    div.team-member, div.four, div.columns{
+      width: 120px;
+      img{
+        width: 120px;
+        height: 120px;
+      }
+    }
+  }
+}
 @media screen and (min-width: 960px){
+  section#team{
+    div.team-member, div.four, div.columns{
+      width: 170px;
+      img{
+        width: auto;
+        height: auto;
+      }
+    }
+  }
   section#video{
     div.video-android{
         top:0;
