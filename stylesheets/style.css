@@ -73,6 +73,11 @@ section#mail a:hover,
 footer#footer a:hover {
   text-decoration: underline;
 }
+section#team div.team-member,
+section#team div.four,
+section#team div.columns {
+  width: 170px;
+}
 div.license-container div.license {
   margin: 1em 0 1em 0;
   word-wrap: break-word;
@@ -155,8 +160,45 @@ div#info-navigator div.phone-button-container a:link.not-chosen,
 div#info-navigator div.phone-button-container a:visited.not-chosen {
   background: none repeat scroll 0 0 #666666;
 }
+section#video div.video-android {
+  top: 0;
+}
+section#video div.video-android iframe {
+  width: 560px;
+  height: 315px;
+}
 @media screen and (max-width: 480px) {
   div.appstore-button span {
     margin-left: 10px;
+  }
+  section#team div.team-member,
+  section#team div.four,
+  section#team div.columns {
+    width: 300px;
+  }
+  section#video div.video-android {
+    top: -5px;
+  }
+  section#video div.video-android iframe {
+    width: 240px;
+    height: 135px;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  section#video div.video-android {
+    top: -7px;
+  }
+  section#video div.video-android iframe {
+    width: 320px;
+    height: 180px;
+  }
+}
+@media screen and (min-width: 960px) {
+  section#video div.video-android {
+    top: 0;
+  }
+  section#video div.video-android iframe {
+    width: 605px;
+    height: 340px;
   }
 }
