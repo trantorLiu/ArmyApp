@@ -155,6 +155,9 @@ div#info-navigator div.phone-button-container a:link.not-chosen,
 div#info-navigator div.phone-button-container a:visited.not-chosen {
   background: none repeat scroll 0 0 #666666;
 }
+section#video {
+  background: url('../images/mail-pattern.png') repeat-x scroll left top transparent;
+}
 section#video div.video-android {
   top: 0;
 }
@@ -167,7 +170,7 @@ section#video div.video-android iframe {
     margin-left: 10px;
   }
   section#video div.video-android {
-    top: -5px;
+    top: -2px;
   }
   section#video div.video-android iframe {
     width: 240px;
@@ -176,7 +179,7 @@ section#video div.video-android iframe {
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
   section#video div.video-android {
-    top: -7px;
+    top: -4px;
   }
   section#video div.video-android iframe {
     width: 320px;
@@ -209,7 +212,7 @@ section#video div.video-android iframe {
     height: auto;
   }
   section#video div.video-android {
-    top: 0;
+    top: 5px;
   }
   section#video div.video-android iframe {
     width: 605px;
