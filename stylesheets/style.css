@@ -41,6 +41,9 @@ a:hover {
 a#appstore-link {
   text-decoration: none;
 }
+a.app-button:hover {
+  text-decoration: none;
+}
 div.appstore-button {
   width: 200px;
   background-color: #393939;
