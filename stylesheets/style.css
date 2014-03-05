@@ -38,15 +38,26 @@ a:visited {
 a:hover {
   text-decoration: underline;
 }
+a#appstore-link {
+  text-decoration: none;
+}
 div.appstore-button {
   width: 200px;
-  background-color: #2d6da5;
+  background-color: #2D6DA5;
 }
 div.appstore-button span {
   margin-left: 20px;
 }
 div.appstore-button strong {
   margin-left: 55px;
+}
+a#google-play-link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+a#google-play-link strong {
+  margin-left: 65px;
 }
 #appstore-link {
   display: inline-block;
